@@ -1,7 +1,9 @@
 /* Fonts  */
 
 
-
+body{
+    margin: 0;
+}
 .influencer-heading{
     display: flex;
     margin-left: 120px;
@@ -99,7 +101,29 @@ hr{
     grid-column-gap: 30px;
     margin-left: 196px;
     margin-right: 196px;
+    align-items: center;
+    flex-direction: column;
 
+}
+.collection{
+    width: 300px;
+    height: 413px;
+    padding: 10px;
+    
+
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+.see-more a{
+    text-decoration: none;
+    color: #E02C6D;
+    font-weight: bold;
+    margin-left: 209px;
+}
+.pink{
+    color: #E02C6D;
+    font-weight: bold;
 }
 
 
@@ -127,6 +151,8 @@ hr{
     align-items: center;
     margin-left: 165px;
     margin-right: 165px;
+    margin-top: 100px;
+    margin-bottom: 100px;
  
 }
 .reviews img{
@@ -134,4 +160,17 @@ hr{
     height: 270px;
     margin-right:96px ;
     border-radius: 5px;
+}
+.foot-color{
+   background-color: rgba(2, 2, 26, 0.945);
+   text-align: center;
+   color: white;
+   padding: 20px;
+}
+.social-icon{
+    display: flex;
+    justify-content: center;
+}
+.social-icon i{
+    padding:10px;
 }
