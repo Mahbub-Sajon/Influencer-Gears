@@ -1,8 +1,9 @@
 /* Fonts  */
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 
 body{
     margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
 .influencer-heading{
     display: flex;
@@ -11,7 +12,10 @@ body{
     margin-top: 87px;
     justify-content: space-between;
     align-items: center;
-
+}
+.influencer-home{
+    color:#3A3A3A;
+    font-weight: bold ;
 }
 .influencer-menu ul{
         display: flex;
@@ -24,10 +28,17 @@ body{
 .influencer-menu li a{
     text-decoration: none;
     color:#3A3A3A;
+    font-weight: 600;
     ;
+}
+.fa-search{
+    width:24px;
+    height: 24px;
 }
 .fa-shopping-cart{
     margin-left: 34px;
+    width: 24px;
+    height: 24px;
 }
 .influencer-journey{
     display: flex;
@@ -39,6 +50,20 @@ body{
     width: 582px;
     height: 270px;
     margin-top: 157px;
+}
+.journey-detail h1{
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.journey-detail p{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
 }
 .influencer-picture{
     width: 440px;
@@ -74,7 +99,7 @@ hr{
     position: absolute;
     width: 1110px;
     height: 1px;
-    margin-left: 165px;
+    margin-left: 200px;
     background: linear-gradient(90deg, rgba(192, 204, 218, 0.1) 0%, rgba(192, 204, 218, 0.6) 50.38%, rgba(192, 204, 218, 0.1) 100%);
 }
 .logo {
@@ -93,6 +118,12 @@ hr{
     text-align: center;
     margin-top: 100px;
     margin-bottom: 30px;
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 70px;
+    letter-spacing: 0px;
+
 }
 .collections{
     display: grid;
@@ -109,17 +140,30 @@ hr{
     width: 300px;
     height: 413px;
     padding: 10px;
-    
-
     background-color: #FFFFFF;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     border-radius: 5px;
+}
+.collection h2{
+    margin:auto;
+}
+.collection p{
+    margin-top: 10px;
+}
+.dollar{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+   
+    text-align: left;
+    color: #000000DE;
 }
 .see-more a{
     text-decoration: none;
     color: #E02C6D;
     font-weight: bold;
-    margin-left: 209px;
+    margin-left: 195px;
+    margin-top: 10px;
 }
 .pink{
     color: #E02C6D;
