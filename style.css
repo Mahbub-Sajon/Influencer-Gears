@@ -179,26 +179,6 @@ hr{
     color: #E02C6D;
     font-weight: bold;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .reviews{
     display:flex;
     justify-content: space-between;
@@ -227,4 +207,165 @@ hr{
 }
 .social-icon i{
     padding:10px;
+}
+/* Media Queries */
+
+/* Mobile Devices */
+@media only screen and (max-width:688px){
+    .influencer-heading h2{
+       font-size: 13px; 
+    }
+    .influencer-heading{
+        position: absolute;
+        margin-right: 39px;
+    }
+    .influencer-menu li{
+        display: none;
+    }
+    .fa-search{
+        margin-left: 0px;   
+    }
+    .fa-shopping-cart{
+        margin-left: 0px;
+    }
+    .influencer-journey{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+    }
+    .journey-detail{
+        width: 250px;
+        height: 250px;
+    }
+    .influencer-picture{
+        width: 150px;
+        height: 150px;
+        margin-top: 368px;
+        margin-left: -97px;
+    }
+    hr{
+        display: none;
+    }
+    .logo{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 161px;
+        margin-top: 137px;
+    }
+    .middle{
+        margin-left: 78px;
+    }
+    .collections{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .collections img{
+        height: 175px;
+        width: 251px;
+    }
+    .collection{
+        margin-left: -90px;
+        height: 333px;
+        width: 253px;
+    }
+    .see-more a{
+        margin-left: 145px;
+    }
+    .reviews{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .reviews img{
+        width:269px;
+        height: 270px;
+        margin-left: -56px;
+    }
+    .review{
+        margin-left: -56px;
+        width: 269px;
+    }
+    .foot-color{
+        width:688px;
+    }
+}
+@media only screen and (min-width:689px) and (max-width:992px){
+    .influencer-heading h2{
+        font-size: 13px; 
+     }
+     .influencer-menu li{
+        margin-right: 20px;
+     }
+     .influencer-heading{
+         position: absolute;
+         margin-right: 39px;
+     }
+    
+     .fa-search{
+         margin-left: 0px;   
+     }
+     .fa-shopping-cart{
+         margin-left: 0px;
+     }
+     .influencer-journey{
+         display: grid;
+         grid-template-columns: repeat(2, 1fr);
+         align-items: center;
+     }
+     .journey-detail{
+         width: 250px;
+         height: 250px;
+     }
+     .influencer-picture{
+         width: 150px;
+         height: 150px;
+         margin-top: 368px;
+         margin-left: 80px;
+     }
+     hr{
+         display: none;
+     }
+     .logo{
+         display: grid;
+         grid-template-columns: repeat(3, 1fr);
+         margin-left: 250px;
+         margin-top: 350px;
+     }
+     .middle{
+         margin-left: 78px;
+     }
+     .collections{
+         display: grid;
+         grid-template-columns: repeat(2, 1fr);
+         align-items: center;
+     }
+     .collections img{
+         height: 175px;
+         width: 251px;
+     }
+      .collection{
+        
+         height: 348px;
+         width: 256px;
+     } 
+     .see-more a{
+         margin-left: 145px;
+         margin-top: 5px;
+     }
+     .reviews{
+         display: grid;
+         grid-template-columns: repeat(2, 1fr);
+     }
+     .reviews img{
+         width:269px;
+         height: 270px;
+         margin-left: 20px;
+     }
+     .review{
+         margin-left: 5px;
+         width: 269px;
+     }
+     .foot-color{
+         width:992px;
+         text-align: center;
+     }  
 }
